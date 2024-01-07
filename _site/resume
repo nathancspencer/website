@@ -1,0 +1,113 @@
+<html>
+<head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #333;
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 1em ;
+    margin-bottom: 1em ;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 1em ;
+    margin-bottom: 1em ;
+}
+h1 a {
+	text-decoration:none;
+	color:inherit;
+}
+
+main {
+	margin-left: auto;
+    	margin-right: auto;
+    	width: 35em;
+    	font-size: large;
+    	color: #333;
+    	font-family: 'Libre Baskerville', serif;
+	height:100%;
+}
+
+main a {
+	text-decoration:none; 
+	color:#002A53;
+	font-weight: bold;
+}
+</style>
+</head>
+<body>
+	<h1><a href="/">Nathan Spencer</a></h1>
+	<h2>Resume</h2>
+	<main>
+		<p>Hi there! I love to make software to solve problems. If you'd like to get in touch, contact me at my name (with the c) at protonmail.com.</p>
+<h3>WORK EXPERIENCE</h3>
+<hr>
+<p><strong>Macquarie Group</strong><br>
+<em>Full-time, Jan 2024 - Present</em></p>
+<p><strong>Katana1</strong><br>
+<em>Part-time, June 2023 - Dec 2023</em></p>
+<ul>
+<li>Automated secure role allocation and deployment for internal cloud projects over OpenID Connect with Bitbucket, Terraform, and GCP / AWS</li>
+<li>Reduced sales quote generation time 50% with Google Apps Script automations</li>
+<li>Improved device monitoring by automating CrowdStrike Falcon installation with Jumpcloud and logging using Splunk and the CrowdStrike API</li>
+</ul>
+<p><strong>OFX</strong><br>
+<em>Full-time, Jan - May 2023</em></p>
+<ul>
+<li>Reduced per-invocation costs 90% and scaled an AWS microservice 50x by creating an initiator Lambda function in .NET</li>
+<li>Minimised development time by converting frontend architecture from monolith to micro frontend and updating dependencies, in React / Typescript</li>
+<li>Increased efficiency of backend-for-frontend by converting REST API to GraphQL</li>
+</ul>
+<p><strong>Spencer Private Wealth</strong><br>
+<em>Part-time, Jun - Dec 2022</em></p>
+<ul>
+<li>Decreased time to generate Macquarie Wrap reports 80% by creating an auto filling chromium browser extension in Javascript</li>
+<li>Computerised forwarding of client emails by creating a Google Apps Script cron</li>
+<li>Improved password security by replacing SMS email forwarding with 2FA
+Ensured references to financial regulations were current by updating codebase with latest regulations in Ruby on Rails
+Increased suggestive functionality by adding additional RegEx matches
+Built a pre-populated notes feature to save compliance reviewers time</li>
+</ul>
+<p><strong>Advice RegTech</strong><br>
+<em>Part-time, Jan - May 2022</em></p>
+<ul>
+<li>Ensured references to financial regulations were current by updating codebase with latest regulations</li>
+<li>Increased suggestive functionality by adding additional RegEx matches</li>
+<li>Saved compliance reviewers time by building a pre-populated notes feature</li>
+</ul>
+<h3>EDUCATION</h3>
+<hr>
+<p><strong>Bachelor of Engineering (Honours) (Software)</strong><br>
+<em>UNSW Sydney, 2022-25</em></p>
+<ul>
+<li>Awarded Co-op Scholarship</li>
+<li>Distinction Average</li>
+</ul>
+<p><strong>Higher School Certificate</strong><br>
+<em>Shore School, 2016-21</em></p>
+<ul>
+<li>Awarded Full Academic Scholarship</li>
+<li>Prefect</li>
+</ul>
+<p><strong>Opportunity Class</strong><br>
+<em>Chatswood PS, 2014-15</em></p>
+<ul>
+<li>Awarded Dux from 120 students</li>
+<li>Prefect</li>
+</ul>
+
+	</main>
+</body>
+</html>
+
+
+
+
+
+
