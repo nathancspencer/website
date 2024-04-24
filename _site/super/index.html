@@ -35,11 +35,11 @@ h3 a {
 }
 main {
 	margin-left: auto;
-    	margin-right: auto;
-    	width: 35em;
-    	font-size: large;
-    	color: #333;
-    	font-family: 'Libre Baskerville', serif;
+	margin-right: auto;
+	width: 35em;
+	font-size: large;
+	color: #333;
+	font-family: 'Libre Baskerville', serif;
 }
 
 main a {
@@ -61,6 +61,10 @@ html {
 	margin: 0px;
 	padding: 0px 20px;
 	font-size: 30px;
+}
+
+form {
+	text-align: center;
 }
 
 </style>
@@ -150,6 +154,10 @@ html {
 <p>REST super is probably the best option for an international index fund because of the lowest fees. This difference is only going to compound over longer timeframes.</p>
 
 	</main>
+	<form name="subscribe" method="POST" data-netlify="true">
+		<input type="email" name="email" placeholder="Email"/>
+		<button type="submit">Subscribe</button>
+	</form>
 </body>
 </html>
 
