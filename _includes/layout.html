@@ -75,22 +75,44 @@ img {
 	display: block;
 }
 
+input {
+	border-radius: 5px;
+	padding: 8px 18px;
+	font-size: 12px;
+	cursor: pointer;
+	text-align: center;
+	border-color: #333;
+	font-family: 'Libre Baskerville', serif;
+}
+
+button {
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 12px;
+	border: none;
+	color:white;
+	background-color: #002A53;
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+}
+
 </style>
 </head>
 <body>
 	<h1><a href="/">Nathan Spencer</a></h1>
 	<div class="flex-container">
 		<div><h3><a href="/photo">Photo</a></h3></div>
-		<div><h3><a href="/notfound">Store</a></h3></div>
+		<div><h3><a href="/notfound">Services</a></h3></div>
 		<div><h3><a href="/notfound">About</a></h3></div>
 	</div>
 	<h2>{{ title }}</h2>
 	<main>
 		{{ content }}
 	</main>
+	<br></br>
 	<form name="subscribe" method="post" netlify>
-		<input type="email" name="email" placeholder="Email"/>
-		<button type="submit">Subscribe</button>
+		<input type="email" name="email" placeholder="Your Email" size="25"/>
+		<button type="submit">Subscribe!</button>
 	</form>
 </body>
 </html>
