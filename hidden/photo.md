@@ -2,4 +2,18 @@
 title: Photo Library
 ---
 
-![Nozawa Onsen](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nytimes.com%2Fwirecutter%2Freviews%2Fbest-online-photo-printing%2F&psig=AOvVaw0npQ2KPVdcFiolQh-f7Eq1&ust=1714088127688000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMCFhYGC3IUDFQAAAAAdAAAAABAE)
+I picked up photography a couple years back with a used Fujifilm X100T. Here are some of my favourite photos!
+
+![](../photos/japan-1.jpeg)
+
+![](../photos/japan-2.jpeg)
+
+![](../photos/japan-3.jpeg)
+
+![](../photos/japan-4.jpeg)
+
+![](../photos/whitsundays-1.jpeg)
+
+![](../photos/whitsundays-2.jpeg)
+
+![](../photos/whitsundays-3.jpeg)
