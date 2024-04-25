@@ -2,7 +2,7 @@
 title: An Ode to Making Things
 ---
 
-March 2024
+_March 2024_
 
 I've been in a reflective mood recently. Pondering things. Questioning things.
 
