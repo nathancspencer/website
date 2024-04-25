@@ -18,6 +18,8 @@ I think this captures the essence of what inspires me. Not taking the things of 
 
 This is what I enjoy about programming. It's probably the only domain where it's boundaries are purely the edges of imagination. There's no gatekeepers to tell you what you can and can't do, other than the compiler!
 
+Some disjointed thoughts (to be polished!):
+
 If I want to build a house, I need X set of permissions
 
 I think there's a sense of egolessness in creating things as well which I admire - as opposed to sales, or acting, or politics, nobody really knows the creators of the lives and systems which quietly govern our lives. It'd be hard to find anyone who can tell you who the inventor of the COVID vaccine was which saved millions of lives, but everyone knows who the US president was at the time! But I think everyone would much rather live in a world where

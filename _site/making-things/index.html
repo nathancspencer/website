@@ -1,5 +1,6 @@
 <html>
 <head>
+<link rel="icon" type="image/x-icon" href="../photos/favicon.ico">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
@@ -8,8 +9,8 @@ h1 {
     font-size: 45px;
     color: #333;
     font-family: 'Libre Baskerville', serif;
-    margin-top: 1em ;
-    margin-bottom: 1em ;
+    margin-top: 1em;
+    margin-bottom: 0em;
 }
 h2 {
     text-align: center;
@@ -19,18 +20,27 @@ h2 {
     margin-top: 1em ;
     margin-bottom: 1em ;
 }
+h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+    font-family: 'Libre Baskerville', serif;
+}
 h1 a {
 	text-decoration:none;
 	color:inherit;
 }
-
+h3 a {
+	text-decoration:none;
+	color:inherit;
+}
 main {
 	margin-left: auto;
-    	margin-right: auto;
-    	width: 35em;
-    	font-size: large;
-    	color: #333;
-    	font-family: 'Libre Baskerville', serif;
+	margin-right: auto;
+	width: 35em;
+	font-size: large;
+	color: #333;
+	font-family: 'Libre Baskerville', serif;
 }
 
 main a {
@@ -39,14 +49,66 @@ main a {
 	font-weight: bold;
 }
 
+a:hover {
+	color: #53002a;
+}
+
 html {
 	padding-bottom: 100px;
+}
+
+.flex-container {
+	justify-content: center;
+	display: flex;
+}
+
+.flex-container > div {
+	margin: 0px;
+	padding: 0px 20px;
+	font-size: 30px;
+}
+
+form {
+	text-align: center;
+}
+
+img {
+	max-height: 30em;
+	max-width: 30em;
+	margin: auto;
+	display: block;
+}
+
+input {
+	border-radius: 5px;
+	padding: 8px 18px;
+	font-size: 12px;
+	cursor: pointer;
+	text-align: center;
+	border-color: #333;
+	font-family: 'Libre Baskerville', serif;
+}
+
+button {
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 12px;
+	border: none;
+	color:white;
+	background-color: #002A53;
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
 }
 
 </style>
 </head>
 <body>
 	<h1><a href="/">Nathan Spencer</a></h1>
+	<div class="flex-container">
+		<div><h3><a href="/photo">Photo</a></h3></div>
+		<div><h3><a href="/notfound">Services</a></h3></div>
+		<div><h3><a href="/notfound">About</a></h3></div>
+	</div>
 	<h2>An Ode to Making Things</h2>
 	<main>
 		<p>March 2024</p>
@@ -57,6 +119,7 @@ html {
 <p>&quot;Life can be much broader when you discover one simple fact: and that is, everything around you that you call life was made up by people no smarter than you. And you can change it, you can influence it, you can build things other people can use.&quot;</p>
 <p>I think this captures the essence of what inspires me. Not taking the things of life as some accepted reality, but something that is completely arbitrary and that you can shape.</p>
 <p>This is what I enjoy about programming. It's probably the only domain where it's boundaries are purely the edges of imagination. There's no gatekeepers to tell you what you can and can't do, other than the compiler!</p>
+<p>Some disjointed thoughts (to be polished!):</p>
 <p>If I want to build a house, I need X set of permissions</p>
 <p>I think there's a sense of egolessness in creating things as well which I admire - as opposed to sales, or acting, or politics, nobody really knows the creators of the lives and systems which quietly govern our lives. It'd be hard to find anyone who can tell you who the inventor of the COVID vaccine was which saved millions of lives, but everyone knows who the US president was at the time! But I think everyone would much rather live in a world where</p>
 <p>Other properties about making things I enjoy:</p>
@@ -70,6 +133,11 @@ html {
 <p>Life is too short to try and match people's.</p>
 
 	</main>
+	<br></br>
+	<form name="subscribe" method="post" netlify>
+		<input type="email" name="email" placeholder="Your Email" size="25"/>
+		<button type="submit">Subscribe!</button>
+	</form>
 </body>
 </html>
 
