@@ -22,4 +22,9 @@ _Jan 2024_
 - Probably the clearest systems thinker on the internet.
 - I like his [Twitter](https://twitter.com/patio11) and his old blog, but everything he writes is amazing.
 
+**Steve Jobs**
+
+- His passion in his work gives me inspiration
+- I love his old interviews which you can find on Youtube
+
 Most of all, I'm inspired by my friends, mentors, and parents, who I owe everything in this world.
