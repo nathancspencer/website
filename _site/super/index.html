@@ -34,13 +34,22 @@ h3 a {
 	text-decoration:none;
 	color:inherit;
 }
+
 main {
 	margin-left: auto;
 	margin-right: auto;
 	width: 35em;
+	/* width: 100%; */
 	font-size: large;
+	/* font-size: 3em; */
 	color: #333;
 	font-family: 'Libre Baskerville', serif;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+	width: 100%; 
+  }
 }
 
 main a {
@@ -105,13 +114,14 @@ button {
 <body>
 	<h1><a href="/">Nathan Spencer</a></h1>
 	<div class="flex-container">
-		<div><h3><a href="/photo">Photo</a></h3></div>
+		<div><h3><a href="/photos">Photos</a></h3></div>
 		<div><h3><a href="/notfound">Services</a></h3></div>
-		<div><h3><a href="/notfound">About</a></h3></div>
+		<div><h3><a href="/about">About</a></h3></div>
 	</div>
 	<h2>The Best Super</h2>
 	<main>
-		<p>2 years ago, I made the foolish decision to join Spaceship super. They had the most exposure to technology stocks, which I thought would have the highest return for my retirement. But, while the software is great, their fees are quite high - something like 1% annually (half my investment over 50 years) - and they've had a bit of trouble with ASIC recently.</p>
+		<p><em>Dec 2023</em></p>
+<p>2 years ago, I made the foolish decision to join Spaceship super. They had the most exposure to technology stocks, which I thought would have the highest return for my retirement. But, while the software is great, their fees are quite high - something like 1% annually (half my investment over 50 years) - and they've had a bit of trouble with ASIC recently.</p>
 <p>So, I embark on my journey to find a better super fund - at least for the next 10 years.</p>
 <p><strong>What's my criteria?</strong></p>
 <p>Since I have at least 50 years until I access my super, I'm looking to maximise risk/reward for the lowest fees.</p>

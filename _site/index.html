@@ -34,13 +34,22 @@ h3 a {
 	text-decoration:none;
 	color:inherit;
 }
+
 main {
 	margin-left: auto;
 	margin-right: auto;
 	width: 35em;
+	/* width: 100%; */
 	font-size: large;
+	/* font-size: 3em; */
 	color: #333;
 	font-family: 'Libre Baskerville', serif;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+	width: 100%; 
+  }
 }
 
 main a {
@@ -105,13 +114,13 @@ button {
 <body>
 	<h1><a href="/">Nathan Spencer</a></h1>
 	<div class="flex-container">
-		<div><h3><a href="/photo">Photo</a></h3></div>
+		<div><h3><a href="/photos">Photos</a></h3></div>
 		<div><h3><a href="/notfound">Services</a></h3></div>
-		<div><h3><a href="/notfound">About</a></h3></div>
+		<div><h3><a href="/about">About</a></h3></div>
 	</div>
 	<h2></h2>
 	<main>
-		<p><a href="/super/">The Best Super</a></p><p><a href="/people/">People Who Inspire Me</a></p><p><a href="/making-things/">An Ode to Making Things</a></p><p><a href="/quotes/">My Favourite Quotes</a></p>
+		<p><a href="/super/">The Best Super</a></p><p><a href="/people/">People Who Inspire Me</a></p><p><a href="/making-things/">An Ode to Making Things</a></p><p><a href="/quotes/">My Favourite Quotes</a></p><p><a href="/architecture/">The Downfall of Architecture</a></p>
 	</main>
 	<br></br>
 	<form name="subscribe" method="post" netlify>

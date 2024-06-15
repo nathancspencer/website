@@ -1,5 +1,5 @@
 ---
-title: Photo Library
+title: Photos
 ---
 
 I picked up photography a couple years back with a used Fujifilm X100T. Here are some of my favourite photos!

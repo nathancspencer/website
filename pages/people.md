@@ -4,8 +4,6 @@ title: People Who Inspire Me
 
 _Jan 2024_
 
-I've only included people I think are underrated.
-
 **Tyler Cowen**
 
 - His [podcast](https://conversationswithtyler.com/) is simply amazing. Always asks the most thoughtful questions and brings interesting people on. I listen to every episode.
@@ -23,3 +21,5 @@ I've only included people I think are underrated.
 
 - Probably the clearest systems thinker on the internet.
 - I like his [Twitter](https://twitter.com/patio11) and his old blog, but everything he writes is amazing.
+
+Most of all, I'm inspired by my friends, mentors, and parents, who I owe everything in this world.

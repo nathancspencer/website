@@ -18,20 +18,10 @@ I think this captures the essence of what inspires me. Not taking the things of 
 
 This is what I enjoy about programming. It's probably the only domain where it's boundaries are purely the edges of imagination. There's no gatekeepers to tell you what you can and can't do, other than the compiler!
 
-Some disjointed thoughts (to be polished!):
+I think there's a sense of egolessness in creating things as well which I admire - as opposed to sales, or acting, or politics, nobody really knows the creators of the lives and systems which quietly govern our lives. It'd be hard to find anyone who can tell you who the inventor of the COVID vaccine was which saved millions of lives, but everyone knows who the US president was at the time! But I think everyone would much rather live in a world with a vaccine instead of Donald Trump.
 
-If I want to build a house, I need X set of permissions
+There are other properties I really enjoy (which I hope to expand on later):
 
-I think there's a sense of egolessness in creating things as well which I admire - as opposed to sales, or acting, or politics, nobody really knows the creators of the lives and systems which quietly govern our lives. It'd be hard to find anyone who can tell you who the inventor of the COVID vaccine was which saved millions of lives, but everyone knows who the US president was at the time! But I think everyone would much rather live in a world where
-
-Other properties about making things I enjoy:
-
-- Recurring benefits
-- Every detail matters
-- No bullshitting
-
-What I find stifling about work?
-
-Not dealing with the world in a fundemantal way. Not dealing with people's expectations. Lots of bullshit.
-
-Life is too short to try and match people's.
+- Recurring benefits of created things!
+- Every single detail matters
+- Can't bullshit

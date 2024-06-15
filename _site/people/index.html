@@ -34,13 +34,22 @@ h3 a {
 	text-decoration:none;
 	color:inherit;
 }
+
 main {
 	margin-left: auto;
 	margin-right: auto;
 	width: 35em;
+	/* width: 100%; */
 	font-size: large;
+	/* font-size: 3em; */
 	color: #333;
 	font-family: 'Libre Baskerville', serif;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+	width: 100%; 
+  }
 }
 
 main a {
@@ -105,14 +114,13 @@ button {
 <body>
 	<h1><a href="/">Nathan Spencer</a></h1>
 	<div class="flex-container">
-		<div><h3><a href="/photo">Photo</a></h3></div>
+		<div><h3><a href="/photos">Photos</a></h3></div>
 		<div><h3><a href="/notfound">Services</a></h3></div>
-		<div><h3><a href="/notfound">About</a></h3></div>
+		<div><h3><a href="/about">About</a></h3></div>
 	</div>
 	<h2>People Who Inspire Me</h2>
 	<main>
-		<p>Jan 2024</p>
-<p>I've only included people I think are underrated.</p>
+		<p><em>Jan 2024</em></p>
 <p><strong>Tyler Cowen</strong></p>
 <ul>
 <li>His <a href="https://conversationswithtyler.com/">podcast</a> is simply amazing. Always asks the most thoughtful questions and brings interesting people on. I listen to every episode.</li>
@@ -131,6 +139,7 @@ button {
 <li>Probably the clearest systems thinker on the internet.</li>
 <li>I like his <a href="https://twitter.com/patio11">Twitter</a> and his old blog, but everything he writes is amazing.</li>
 </ul>
+<p>Most of all, I'm inspired by my friends, mentors, and parents, who I owe everything in this world.</p>
 
 	</main>
 	<br></br>
