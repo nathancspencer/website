@@ -2,7 +2,7 @@
 title: About
 ---
 
-Hi, I'm Nathan.
+Hi, I'm Nathan!
 
 My passion is for making great things. I aspire to be as humble and grateful as I can.
 
