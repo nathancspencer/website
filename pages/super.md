@@ -41,4 +41,4 @@ But, I think it makes sense to look through the international index funds by maj
 
 \*Note: percentage costs are simplified - fee caps have been ignored as generally only apply to balances above 200k
 
-While REST super does have the lowest fees out of any major super fund, I'd recommend Aware super because they seem more competent. REST super is smaller, and someone I know noticed a bug with them setting up a domain insecurely which is concerning for an organisation you a trusting your life savings with.
+While REST super does have the lowest fees out of any major super fund, I'd recommend Aware super because they seem more competent. REST super is smaller, and someone I know noticed a bug with them setting up a domain insecurely which is concerning for an organisation you're trusting your life savings with.
