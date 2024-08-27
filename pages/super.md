@@ -1,5 +1,5 @@
 ---
-title: The Best Super
+title: The Best Super in Australia
 ---
 
 _Dec 2023_
@@ -28,17 +28,17 @@ Someone on reddit made this [cool spreadsheet](https://docs.google.com/spreadshe
 
 But, I think it makes sense to look through the international index funds by major super funds. They should have the scale to offer decently low fees and reliable service for the next 50 years.
 
-| **Super Fund (all passive international index other than Spaceship)** | **Fixed Costs** | **Percentage Costs** | **Approximate cost over 10 years (assuming balance increasing by $10k annually, 10% returns)** |
-| --------------------------------------------------------------------- | --------------- | -------------------- | ---------------------------------------------------------------------------------------------- |
-| REST Super                                                            | 78              | 0.16%                | 2270                                                                                           |
-| Aware Super                                                           | 52              | 0.22%                | 2370                                                                                           |
-| Australian Retirement Trust                                           | 62              | 0.26%                | 2810                                                                                           |
-| Hostplus                                                              | 78              | 0.45%                | 4440                                                                                           |
-| Australian Super                                                      | 52              | 0.53%                | 4690                                                                                           |
-| HESTA                                                                 | 52              | 0.60%                | 5200                                                                                           |
-| MLC                                                                   | 78              | 0.60%                | 5550                                                                                           |
-| Spaceship (for fun lol)                                               | 78              | 0.85%                | 7380                                                                                           |
+| **Super Fund**              | **Fixed Costs** | **Percentage Costs** | **10 Year Cost\*** |
+| --------------------------- | --------------- | -------------------- | ------------------ |
+| REST Super                  | 78              | 0.16%                | 2270               |
+| Aware Super                 | 52              | 0.22%                | 2370               |
+| Australian Retirement Trust | 62              | 0.26%                | 2810               |
+| Hostplus                    | 78              | 0.45%                | 4440               |
+| Australian Super            | 52              | 0.53%                | 4690               |
+| HESTA                       | 52              | 0.60%                | 5200               |
+| MLC                         | 78              | 0.60%                | 5550               |
+| Spaceship (for fun lol)     | 78              | 0.85%                | 7380               |
 
-\*Note: percentage costs are simplified - fee caps have been ignored as generally only apply to balances above 200k
+_\*Note: assuming balance increasing by $10k annually, 10% returns._
 
 While REST super does have the lowest fees out of any major super fund, I'd recommend Aware super because they seem more competent. REST super is smaller, and someone I know noticed a bug with them setting up a domain insecurely which is concerning for an organisation you're trusting your life savings with.
