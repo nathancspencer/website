@@ -17,7 +17,7 @@ We also need to model the cost of setup time for an iPhone. I’ve put in, model
 
 And we are excluding the asset value of the iPhone when it hits the end of security updates, as the effort to sell is probably greater than the value of the phone itself.
 
-| iPhone Model* | Price (AUD) | Expected Years of Security Updates | Yearly cost of replcament frequency | Estimated Total Cost per Year |
+| iPhone Model* | Price (AUD) | Expected Years of Security Updates | Yearly cost of replacement frequency | Estimated Total Cost per Year |
 | ----------- | ----------- | ---------------------------------- | ------------------------------- | --------------------- |
 | 16e | 999 | 7 | 5 | 148 |
 | 16 | 1399 | 7.5 | 3 | 189 |
