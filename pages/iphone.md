@@ -1,5 +1,5 @@
 ---
-title: Now is the best time to buy an iPhone 
+title: Now is the Best Time to Buy an iPhone 
 ---
 
 *Feb 2025*
@@ -17,7 +17,7 @@ We also need to model the cost of setup time for an iPhone. I’ve put in, model
 
 And we are excluding the asset value of the iPhone when it hits the end of security updates, as the effort to sell is probably greater than the value of the phone itself.
 
-| iPhone Model* | Price (AUD) | Expected Years of Security Updates | Yearly Replacement Frequency (%) | Estimated Cost per Year |
+| iPhone Model* | Price (AUD) | Expected Years of Security Updates | Yearly cost of replcament frequency | Estimated Total Cost per Year |
 | ----------- | ----------- | ---------------------------------- | ------------------------------- | --------------------- |
 | 16e | 999 | 7 | 5 | 148 |
 | 16 | 1399 | 7.5 | 3 | 189 |
@@ -26,7 +26,7 @@ And we are excluding the asset value of the iPhone when it hits the end of secur
 | 14 (used) | 750 | 5.5 | 17 | 153 |
 | 13 (used) | 550 | 4.5 | 29 | 151 |
 
-* Assuming 128gb of storage
+*\*Assuming 128gb of storage*
 
 It’s interesting how the iPhone 15 is more expensive than the iPhone 16 per year of security updates, especially if you buy it new.
 
