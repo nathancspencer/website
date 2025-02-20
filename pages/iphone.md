@@ -28,7 +28,7 @@ And we are excluding the asset value of the iPhone when it hits the end of secur
 
 *\*Assuming 128gb of storage*
 
-It’s interesting how the iPhone 15 is more expensive than the iPhone 16 per year of security updates, especially if you buy it new.
+It’s interesting how the iPhone 15 is more expensive than the iPhone 16 per year of security updates, if you buy it new.
 
 So with the release of the new iPhone 16e, now is the cheapest time to buy an new iPhone in the next few years, if you mainly value security updates. It is likely worth it for anyone with an iPhone 11 or older given that the iPhone e-series is released so infrequently. If you model your time as worth less than $100 per hour, maybe a used iPhone 13/14 is also worth it. I’ve forgotten to model some things, but I think this gets the cost roughly correct.
 
