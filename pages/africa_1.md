@@ -51,7 +51,7 @@ Without any better idea, and no one I could trust, I walked back to the entrance
 
 I tried to negotiate - but for being white, a "wazungu", as they call it, it feels like there's this pot of gold on my head which makes everyone want to ridiculously over quote me and talk in a way which I think Australians would find manipulative. Sure, I'll quote you 5 times the market rate, but I'll say make a special deal - no profit - since you are my friend and I want you to come back to Africa in the future. All while constantly smiling in a pretty creepy way, which I learnt was pretty normal.
 
-The driver tells me about the training course he had to do while we wait for his taxi, and that I was a good man for supporting the legitamate taxi industry. He calls some number from a list on Whatsapp. A yellow cab pops up, a driver comes out and my driver replaces him. There must be some car sharing arrangement? He makes me sit in the front, he seems to want to show me his list of prices (to show he isn't making it up) in the glovebox while he is driving which scares me a little bit.
+The driver tells me about the training course he had to do while we wait for his taxi, and that I was a good man for supporting the legitimate taxi industry. He calls some number from a list on Whatsapp. A yellow cab pops up, a driver comes out and my driver replaces him. There must be some car sharing arrangement? He makes me sit in the front, he seems to want to show me his list of prices (to show he isn't making it up) in the glovebox while he is driving which scares me a little bit.
 
 But probably, out of all this, what shocked me the most was arriving at the hotel.
 
