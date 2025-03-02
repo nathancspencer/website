@@ -47,17 +47,15 @@ But - and maybe this was part of my mis-judgement of Africa - I was scared of be
 
 Without any better idea, and no one I could trust, I walked back to the entrance, telling the people following me very clearly "no!" and chatted to the security guard. He said, probably to try and convince me to choose a driver he'd get a commission from, that "it is very dangerous to get into a taxi with someone you don't know, and that he could introduce me to a good driver". I was already sold. He introduced me to the guy he shook hands with earlier. 
 
-He didn't actually own a taxi, he called up a bunch of numbers he had on WhatsApp. A few minutes later, some guy jumped out of an official looking yellow taxi, and he hopped in. 
+## On the Way to the Hotel
 
 I tried to negotiate - but for being white, a "wazungu", as they call it, it feels like there's this pot of gold on my head which makes everyone want to ridiculously over quote me and talk in a way which I think Australians would find manipulative. Sure, I'll quote you 5 times the market rate, but I'll say make a special deal - no profit - since you are my friend and I want you to come back to Africa in the future. All while constantly smiling in a pretty creepy way, which I learnt was pretty normal.
-
-## On the Way to the Hotel
 
 The driver tells me about the training course he had to do while we wait for his taxi, and that I was a good man for supporting the legitamate taxi industry. He calls some number from a list on Whatsapp. A yellow cab pops up, a driver comes out and my driver replaces him. There must be some car sharing arrangement? He makes me sit in the front, he seems to want to show me his list of prices (to show he isn't making it up) in the glovebox while he is driving which scares me a little bit.
 
 But probably, out of all this, what shocked me the most was arriving at the hotel.
 
-It was a fortress! About 5 security guards came and opened the gate, and stopped the car before it could drive in. They opened the doors with massive searchlights, which I found out later was to check for bombs.
+It was a fortress! About 5 security guards came and opened the gate, and stopped the car before it could drive in. They opened the doors with massive searchlights, which I found out later was to check for bombs. Another impact of not really having a functioning government or border security is that everywhere (at least where wealthy people go)  have insane private security.
 
 Arriving at the hotel entrance, I paid the driver with the cash I had on me, and of course he didn't have change. Not one taxi driver had change in my time in Africa! 
 
