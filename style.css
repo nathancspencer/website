@@ -1,6 +1,7 @@
 * {
 	font-family: Georgia, serif;
 	color: #333;
+	font-weight: normal;
 }
 
 h1, h3 {
@@ -43,7 +44,7 @@ h1 a, h3 a {
 main a {
 	text-decoration: none;
 	color: #002A53;
-	font-weight: bold;
+
 }
 
 strong {
