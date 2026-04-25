@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" type="image/x-icon" href="/photos/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nathan Spencer</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<h1><a href="/">Nathan Spencer</a></h1>
+<div class="flex-container">
+	<div><h3><a href="/photos">Photos</a></h3></div>
+	<div><h3><a href="/belts">Belts</a></h3></div>
+	<div><h3><a href="/about">About</a></h3></div>
+</div>
+<h2>5 Months To Run Code Locally</h2>
+<main>
+<p><em>Nov 2024</em></p>
+
+<p>This is my story of an internship at an unnamed financial institution, and a few hundred lines of code I wanted to execute locally.</p>
+
+<p>In my first few weeks at this job I noticed there was a process that every employee had to do, at least weekly, which could be automated trivially.</p>
+
+<p>I took it upon myself to fix this for everyone at the company before I finished. Obvious problem, which everyone had, would definitely save a heap of time.</p>
+
+<p>Should be easy, right?</p>
+
+<p>It took 5 months.</p>
+
+<p><strong>Trying to Run the Code Myself</strong></p>
+
+<p>I found an open source repository which did this in a couple hundred lines of C code, and worked fine on my personal machine.</p>
+
+<p>However, despite being a developer at said company, we cannot run code directly on our computers.</p>
+
+<p>They use something like <a href="https://github.com/google/santa">Google's Santa</a>, which stops you from executing unapproved binaries. That is - you can't install or write any software on your machine without authorisation. I figured I was probably not smart enough to hack around something designed by the highest paid programmers in the world (built with the express purpose of not letting you hack around it!).</p>
+
+<p>I was warned, presciently, to try everything I can do to figure out a way around it before getting an official security approval.</p>
+
+<p>I realised - as a developer, obviously they have exempted the local compilation and execution of the code in the language I write. Couldn't I just transpile the C code to whatever language was approved to get it to work?</p>
+
+<p>While that was true, every language approved was being executed in an isolated virtual machine, so the code couldn't communicate with the local machine's APIs I needed. I also tried to automate these processes through Apple's built-in Automator, but that was also a dead end as the software hadn't been approved for internal use.</p>
+
+<p>I realised, reluctantly, the only way I was going to get this done was if I got this software officially security approved.</p>
+
+<p><strong>Provoking a Review</strong></p>
+
+<p>So I submitted the Jira ticket for approval of an internal application, with a small essay on why this was valuable to the business (estimating 1 full time employee in productivity savings!).</p>
+
+<p>They rejected it! They said, firstly, that it wasn't secure since the open source repository I linked was only updated 6 months ago, and that they expect software they onboard to be updated at least 4 times a year to be considered secure. And then they said they didn't think there was enough demand for it.</p>
+
+<p>This made no sense to me! Given that the dependencies were static, and all the code was executing locally, it makes no difference to security how frequently the repo is updated!</p>
+
+<p>I chatted to another developer I was working with, who said that he also had an application request rejected and thought that they were just finding stupid reasons not to have to go through the work of dealing with the application.</p>
+
+<p>I was determined to give this a go though, so I tried to provoke them to do a security review.</p>
+
+<p>I sent an email to the developer, and got an email back - in like 10 minutes - explaining why the software was, in fact, secure (no internet access, small codebase, doesn't require system authentication). He sounded confused why I needed a security approval, given it was available for install even with Homebrew. We couldn't even use that.</p>
+
+<p>I also put up a Slack poll in the biggest channel I could find, and got hundreds of votes, I think about half the department, saying that they also wanted the software. This, finally, persuaded them to do a security review of the software for me.</p>
+
+<p>I found out, later, that the average cost of an internal security review was in the tens of thousands of dollars - more than my full time 6-month internship salary.</p>
+
+<p><strong>Strange Concerns</strong></p>
+
+<p>Funnily enough, despite the cost of the review, they wanted me to write a rundown of the security of the application. I did - a diagram of the security dependencies, a link to the open source repository, and left the email on security from the actual developer.</p>
+
+<p>They started complaining about the MIT licence! The SFJKSJFDKL MIT licence!!!</p>
+
+<p><em>Permission is hereby granted, free of charge, to any person obtaining a copy of this software</em></p>
+
+<p>The wording of "person" might not apply to a "company"?</p>
+
+<p>I'm no lawyer, but given all of their production software used code under the MIT licence, I tried to explain - as politely as I could - that they might have a very big legal problem if that were the case.</p>
+
+<p>Then, in defence, they said that it didn't look like the exact full MIT licence was in the referenced repository? Surely not, but I checked anyway with the diff tool, and, of course, it was the exact same.</p>
+
+<p>2 months later, they released the results of the security review. They worded it as an "opinion", interestingly.</p>
+
+<p><strong>Denied!</strong></p>
+
+<p>The software - a few hundred lines of C code - was declared a "medium security risk" because the code was not "signed or notarized".</p>
+
+<p>I had no idea what code signing was! Looking at the security review report, I'm not sure the security consultant knew either. It looked like they had just gone through a checklist of command line scripts which scanned the software, and this particular check failed.</p>
+
+<p>I found out, with a bit of research, it's like a stamp organisations put on binaries to show that they are trusted.</p>
+
+<p>Which makes sense when you're generally dealing with black box applications sold by companies, but not with open source applications where you can compile (and therefore trust) the binary yourself and inspect the source code.</p>
+
+<p>It's kind of funny to think that if I submitted the simplest (and most secure!) program possible - a hello world statement - it would've been rejected in the same way.</p>
+
+<p>Anyway, when I asked about how I could go about getting this sorted, to get this redundant stamp on the code, I was directed to chat to the Certificate Management team.</p>
+
+<p><strong>Detour Offshore</strong></p>
+
+<p>It took ages to organise a meeting with them. Turns out, the Philippines (where they were based) has twice the number of public holidays as my country, Australia.</p>
+
+<p>A few weeks later, I chatted to them, and they were very confused - it sounded like they thought I was needing cert management for an application for customers to install, rather than internal employees. Apparently they had never onboarded an internal application before.</p>
+
+<p>It seemed like the security consultant had handed me to a random team with no idea on how to actually resolve this problem.</p>
+
+<p>At this point, I was pretty stumped, but I thought it might be worth trying to find the person who onboards these internal applications. I eventually found him, explaining my frustration and not knowing how to resolve this code signing issue. He did something I didn't expect in my wildest dreams - and actually complained with me about the security team! He said that they raised redundant security issues all the time, and that they just wanted to hit their monthly KPIs.</p>
+
+<p>In fact, code signing was already part of their internal pipeline process for every application they had approved previously, and that he'd probably be able to onboard the software in an afternoon.</p>
+
+<p>The whole official process was a joke. It wouldn't surprise me if I was the first person to have attempted to get software approved this way. How does a request to the internal application onboarding system get me directed to the customer facing certificate management?</p>
+
+<p>Anyway, I then followed up with this guy - my only hope - and he proceeded to leave me on read three times.</p>
+
+<p>I had a look into their Jira board for onboarding these applications and saw the average time it took to onboard an arbitrary binary was over a year, and warning of how security reviews cost tens of thousands of dollars and not to request unnecessary applications.</p>
+
+<p>5 months later, I had basically given up.</p>
+
+<p>But I happened to be catching up with a higher up, and I mentioned this story to him - and that my internship was finishing in two weeks. And he was like, I know that guy in charge of application onboarding, I'll mention it to him and get him to onboard it.</p>
+
+<p><strong>Success!</strong></p>
+
+<p>One week later, it was approved and available on the internal employee app store.</p>
+
+<p>I installed it! I don't think I've ever had so much joy running such a tiny piece of software.</p>
+
+<p>I understand the need for security restrictions for financial institutions, but it drives me nuts! The difficulty of implementing such a minor program to automate an obvious business process hurts companies like this, and probably why problems like the one I noticed still exist. This blind risk avoidance to insane levels is a company-wide chemotherapy, destroying the good cells as well as the bad.</p>
+
+<p>I also learnt, it's 50 times better to have someone well connected who can help you, rather than attempting anything through official systems.</p>
+
+<p>A coworker who was using the software gave me some feedback for a feature I could add.</p>
+
+<p>And I said, give me another five months.</p>
+</main>
+</body>
+</html>
