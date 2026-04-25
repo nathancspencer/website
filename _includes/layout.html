@@ -77,10 +77,6 @@ html {
 	font-size: 30px;
 }
 
-form {
-	text-align: center;
-}
-
 img {
 	max-width: 90%;
 	margin: auto;
@@ -91,26 +87,6 @@ img {
 	border-style: solid;
 }
 
-input {
-	border-radius: 5px;
-	padding: 8px 18px;
-	font-size: 12px;
-	cursor: pointer;
-	text-align: center;
-	border-color: #333;
-	font-family: 'Libre Baskerville', serif;
-}
-
-button {
-	border-radius: 5px;
-	padding: 10px 20px;
-	font-size: 12px;
-	border: none;
-	color:white;
-	background-color: #002A53;
-	text-align: center;
-	font-family: 'Libre Baskerville', serif;
-}
 
 </style>
 </head>
@@ -125,11 +101,6 @@ button {
 	<main>
 		{{ content }}
 	</main>
-	<br></br>
-	<form name="subscribe" method="post" netlify>
-		<input type="email" name="email" placeholder="Your Email" size="25"/>
-		<button type="submit">Subscribe!</button>
-	</form>
 </body>
 </html>
 
