@@ -10,6 +10,9 @@ h1, h3 {
 
 h1, h2 {
 	margin-top: 0.75em;
+}
+
+h1 {
 	margin-bottom: 0em;
 }
 
@@ -85,6 +88,37 @@ img {
 	border-width: 0.1em;
 	border-color: black;
 	border-style: solid;
+}
+
+.frame-outer {
+	border: 1px solid #333;
+	padding: 2em;
+	position: relative;
+	background-image: url('/BK-NM-475.webp');
+	background-size: cover;
+	background-position: center 12.5%;
+	width: 100vw;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.frame-inner {
+	border: 1px solid #333;
+	padding: 1em 1em 0.5em;
+	position: relative;
+	z-index: 1;
+	background: white;
+	width: fit-content;
+	margin: auto;
+}
+.frame-inner h1 {
+	margin-top: 0;
+}
+.frame-svg {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
 }
 
 table {
