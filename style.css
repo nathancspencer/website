@@ -40,13 +40,17 @@ p {
 }
 
 body {
+	margin: 0;
 	overflow-x: hidden;
+	padding: 0 1em;
 }
 
 @media only screen and (min-width: 601px) {
 	body {
 		margin: auto;
 		width: 35em;
+		overflow-x: visible;
+		padding: 0;
 	}
 }
 
@@ -98,7 +102,6 @@ img {
 .frame-outer {
 	border: 1px solid #333;
 	padding: 2em;
-	box-sizing: border-box;
 	position: relative;
 	background-image: url('/BK-NM-475.webp');
 	background-size: cover;
