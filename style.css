@@ -67,6 +67,7 @@ a:hover {
 
 html {
 	padding-bottom: 100px;
+	overflow-x: hidden;
 }
 
 .flex-container {
