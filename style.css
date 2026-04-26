@@ -25,6 +25,13 @@ h3 {
 	font-size: 0.5em;
 }
 
+main h3 {
+	font-size: 1.4em;
+	text-align: left;
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+
 p {
 	font-size: 1em;
 }

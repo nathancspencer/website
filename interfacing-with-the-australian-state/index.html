@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" type="image/x-icon" href="/photos/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nathan Spencer</title>
+<link rel="stylesheet" href="/style.css">
+<script src="/text-aes.js" defer></script>
+</head>
+<body>
+<h1><a href="/">Nathan Spencer</a></h1>
+<div class="flex-container">
+	<div><h3><a href="/books">Books</a></h3></div>
+	<div><h3><a href="/belts">Belts</a></h3></div>
+	<div><h3><a href="/about">About</a></h3></div>
+</div>
+<h2>Interfacing with the Australian state</h2>
+<main>
+<p><em>Updated: April 2026</em> &nbsp;<button id="copy-btn" style="font-size:0.75em;padding:2px 8px;border:1px solid #ccc;background:none;color:#aaa;border-radius:3px;cursor:pointer">Copy article</button></p>
+
+<p>Contents:</p>
+<ul>
+	<li><a href="#insurance">Insurance</a>
+		<ul>
+			<li><a href="#health-insurance">Health insurance</a></li>
+			<li><a href="#life-insurance">Life insurance</a></li>
+			<li><a href="#car-insurance">Car insurance</a></li>
+			<li><a href="#travel-insurance">Travel insurance</a></li>
+		</ul>
+	</li>
+	<li>Taxation <em>(coming soon)</em></li>
+	<li>Other tidbits <em>(coming soon)</em></li>
+</ul>
+
+<h3 id="insurance">Insurance</h3>
+
+<p>My general take on insurance is that it should only be used for tail risks which would lead to an event in which you cannot afford to pay for the total cost of it. In the same vein, I recommend maximising the excess, since it is the tail risk you are protecting against.</p>
+
+<p>Also, you should treat insurance as commodity products; buy the cheapest option for a given level of cover.</p>
+
+<p id="health-insurance"><strong>Health insurance</strong></p>
+
+<p>Australians are largely insured from all necessary medical costs by Medicare; so private insurance really only makes sense if you want the freedom of choosing a specialist or a higher standard of care. In general I think it is unlikely to be worth it when you are young.</p>
+
+<p>However, the Australian government incentivises private health insurance at higher incomes by offering a rebate on the medicare levy. At the time of writing, it probably makes sense to buy the cheapest private health insurance once you're in the highest tax bracket.</p>
+
+<p>There is also a private health insurance loading cost after you reach 31 which is worth knowing about.</p>
+
+<p>Extras cover is probably not in your financial interests.</p>
+
+<p id="life-insurance"><strong>Life insurance</strong></p>
+
+<p>If you foresee having dependents, or causes or organisations you want to support, it makes sense to get life insurance now. Your most valuable asset if you are young is your expected earning potential. It's a hedge against developing medical conditions which make you uninsurable between now and really needing the life insurance.</p>
+
+<p>You can pay for it via your super, which means you don't realise the expense until you are eligible to use your super, which is useful since it defers the real cost until retirement.</p>
+
+<p>A reasonable amount of life insurance might be between 15x&ndash;25x your annual income. There is also an alignment of incentives: life insurance companies have a direct financial interest in promoting practices that extend your lifespan.</p>
+
+<p>You should probably look at income protection insurance too; but this is more complicated &mdash; the right call depends on your situation &mdash; and I don't know the correct tradeoffs there.</p>
+
+<p id="car-insurance"><strong>Car insurance</strong></p>
+
+<p>There are three kinds of insurance offered in Australia:</p>
+<ul>
+	<li>CTP (compulsory third party) insurance</li>
+	<li>3PP (third party property) insurance</li>
+	<li>Comprehensive insurance</li>
+</ul>
+
+<p>You should get CTP and 3PP; the first because it is compulsory, and the second because you likely cannot afford to pay for the repairs of crashing into a Lamborghini.</p>
+
+<p>However, comprehensive insurance is almost certainly unnecessary; because it covers the cost of repairs for your own car. If you can't afford to replace your car out of pocket, that's the more important problem to solve. Your maximum loss is limited to the total value of the car.</p>
+
+<p>Roadside cover is also unnecessary.</p>
+
+<p id="travel-insurance"><strong>Travel insurance</strong></p>
+
+<p>The main reason to get travel insurance is to cover you for emergency medical care, which could be very expensive.</p>
+
+<p>However, Australia at the time of writing has reciprocal emergency healthcare agreements with the following countries, so in my opinion you do not need travel insurance for these countries:</p>
+<ul>
+	<li>Belgium, Netherlands</li>
+	<li>Ireland, United Kingdom</li>
+	<li>New Zealand</li>
+	<li>Norway, Sweden, Finland</li>
+	<li>Slovenia, Italy, Malta</li>
+</ul>
+
+<aside style="background:#f5f5f5;padding:0.75em 1em;border-radius:4px">
+Thank you for reading! I welcome all feedback: 
+<a href="#" class="email">rC6xJvNwp_iQRjByCgvmt1zckjfB</a>.</aside>
+</main>
+<script>
+document.getElementById('copy-btn').onclick = function() {
+	var btn = document.getElementById('copy-btn');
+	var orig = btn.textContent;
+	var c = document.querySelector('main').cloneNode(true);
+	c.querySelectorAll('button').forEach(function(b){b.remove();});
+	var text = document.querySelector('h2').innerText + '\n\n' + c.innerText.trim();
+	btn.style.width = btn.offsetWidth + 'px';
+	navigator.clipboard.writeText(text).then(function() {
+		btn.textContent = 'Copied!';
+		setTimeout(function(){ btn.style.width = ''; btn.textContent = orig; }, 1500);
+	});
+};
+</script>
+</body>
+</html>
