@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="icon" type="image/x-icon" href="/photos/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nathan Spencer</title>
+<style>
+* {
+	font-family: Georgia, serif;
+	color: #333;
+	font-weight: normal;
+}
+
+h1, h3 {
+	text-align: center;
+}
+
+h1, h2 {
+	margin-top: 0.75em;
+}
+
+h1 {
+	margin-bottom: 0em;
+}
+
+h1 {
+	font-size: 2.25em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 0.5em;
+}
+
+main h3 {
+	font-size: 1.4em;
+	text-align: left;
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+
+main ol {
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+	counter-reset: item;
+}
+
+main ol li {
+	padding-left: 1.7em;
+	text-indent: -1.7em;
+	margin-bottom: 0.75em;
+}
+
+main ol li::before {
+	counter-increment: item;
+	content: counter(item) ".";
+	display: inline-block;
+	width: 1.7em;
+	text-indent: 0;
+}
+
+p {
+	font-size: 1em;
+}
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+	padding: 0 1em;
+}
+
+@media only screen and (min-width: 601px) {
+	body {
+		margin: auto;
+		width: 35em;
+		overflow-x: visible;
+		padding: 0;
+	}
+}
+
+h1 a, h3 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+main a {
+	text-decoration: none;
+	color: #002A53;
+
+}
+
+strong {
+	font-size: 1.25em;
+}
+
+a:hover {
+	color: #53002a;
+}
+
+html {
+	padding-bottom: 100px;
+	overflow-x: hidden;
+}
+
+.flex-container {
+	justify-content: center;
+	display: flex;
+}
+
+.flex-container > div {
+	margin: 0px;
+	padding: 0px 20px;
+	font-size: 30px;
+}
+
+img {
+	max-width: 90%;
+	margin: auto;
+	display: block;
+	border-radius: 1em;
+	border-width: 0.1em;
+	border-color: black;
+	border-style: solid;
+}
+
+.frame-outer {
+	border: 1px solid #333;
+	padding: 2em;
+	position: relative;
+	background-image: url('/BK-NM-475.avif');
+	background-size: cover;
+	background-position: center 12.5%;
+	width: 100vw;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.frame-inner {
+	border: 1px solid #333;
+	padding: 1em 1em 0.5em;
+	position: relative;
+	z-index: 1;
+	background: white;
+	width: fit-content;
+	margin: auto;
+}
+.frame-inner h1 {
+	margin-top: 0;
+}
+.frame-svg {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 0.85em;
+}
+
+th, td {
+	border: 1px solid #ccc;
+	padding: 6px 10px;
+	text-align: left;
+}
+
+th {
+	background-color: #f5f5f5;
+}
+</style>
+</head>
+<body>
+<div class="frame-outer">
+	<div class="frame-inner">
+		<h1><a href="/">Nathan Spencer</a></h1>
+		<div class="flex-container">
+			<div><h3><a href="/books">Books</a></h3></div>
+			<div><h3><a href="/belts">Belts</a></h3></div>
+			<div><h3><a href="/about">About</a></h3></div>
+		</div>
+	</div>
+</div>
+<h2>Buying life insurance in Australia</h2>
+<main>
+<p><em>Aug 2026</em></p>
+
+<ol>
+<li>You can pay for it via super. This means it comes from money you wouldn’t have access to until you retire, so no cost to you in the short term.</li>
+<li>Default super-provided life insurance is not fully underwritten. Assessment happens at claim time.</li>
+<li>All retail life insurance providers take significant commissions; of ~15% of the policy cost. Except NobleOak. Unfortunately, NobleOak does not let you pay via a standard super fund.</li>
+<li>There are some companies which give you a rebate for most of the standard commission, like <a href="https://keepinsuranceco.com.au">keepinsuranceco.com.au</a>, which seems like a good option, if you can stomach the greater data security risk.</li>
+<li>Most life insurers provide age-stepped vs level premium options. You want the age-stepped option, it’s cheaper upfront, and your opportunity cost is super returns.</li>
+<li>You should get life insurance as soon as possible, not just when you have dependents - if you develop a pre-existing medical condition between now and getting dependents you will find it very difficult to insure yourself.</li>
+<li>If you work in tech you probably need multiple millions of cover. H/T <a href="https://x.com/patio11/status/2044464318008508496?s=20">patio11</a></li>
+<li>You may be tempted to get Income or TPD insurance as well. I don’t understand it, the definition of disability is less clear cut, and it’s not clear that there is value in buying it.</li>
+</ol>
+</main>
+</body>
+</html>
